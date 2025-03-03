@@ -1,5 +1,6 @@
 # fast-vanity-sniper
-yaptiklarimizi deneyip elinizdekinden olmayin
+
+# BEN DUCKEVILS BENDEN ÇALINMAYACAĞINI HERKESİN BİLMESİ GEREKMEKTE SEVGİLİ DİSCORD AİLESİ HEPİMİZ BU YOLUN BU ÇÖPLÜĞÜN BİRER YOLCUSUYUZ AMA BEN SİZİNLE AYNI ÇÖPLÜKTE DEĞİLİM EVET BU ÇÖPLÜK BENİM BU KRALLIĞI BEN KURDUM BENIM KRALLIGIMDA BARINAN BİRER SOKAK KEDİSİNDEN FARKINIZ YOK BENİM ÇÖPLÜĞÜMDE BENİM ÇÖPLERİMİ TOPLAYAN KEDİLERDENSİNİZ.                X-scream4k-X
 
 ## Discord
 <a href="https://discord.com/users/578594879681331200"  align="left">
