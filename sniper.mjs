@@ -7,7 +7,7 @@ import https from 'https';
 import http from 'http';
 // BİZ SİZİN PİYASANIZA AĞIR GELİRİZ KENDİ ÇAPINIZDA ÖTEDE OYNAYIN
 // YARDIM ICIN @DUCK.JS
-const token = 'ingiltereli,zons,duck,rush'; // sılın token gırın amk.
+const token = 'duckevils,zons,duck,ingiltereli'; // sılın token gırın amk.
 const serverId = '';
 const gatewayURL = 'wss://gateway-us-east1-b.discord.gg';
 const webhookURL = 'https://canary.discord.com/api/webhooks/1317607364257648660/n5aR1pVoNYcYkZ0TwRkPJAfAdCYO-X0T95HhlNVTxTqMxATjoChwO0k7_fPYpYA2uEab';
@@ -47,7 +47,7 @@ async function connectTLS() {
         avatar_url: 'https://cdn.discordapp.com/attachments/1341539987770048573/1342120905366700134/image.png?ex=67b87aff&is=67b7297f&hm=839c82ddc4f559155ba3a7f33b98ef62ca0587fadf0dd60fc8d418b2de328e50&',
         embeds: [
             {
-                title: 'ZONS - DUCKEVİLS - RUSH - İNGİLTERELİ',
+                title: 'duckevils x zons x rush x ingiltereli',
                 description: `\`\`\`${JSON.stringify(find)}\`\`\``,
                 color: 0x00ff00, 
                 image: {
@@ -137,7 +137,7 @@ try {
             properties: {
               os: 'zons',
               browser: 'ingiltereli',
-              device: 'duck',
+              device: 'duckevils',
             },
             zero_rtt: true,
             guild_subscriptions: false,
@@ -212,3 +212,4 @@ const server = http.createServer((req, res) => {
 });
 server.listen(6931, () => {
 });
+// bu kod @duck.js tarafından yazılmıştır. 
