@@ -7,7 +7,7 @@ import https from 'https';
 import http from 'http';
 // BİZ SİZİN PİYASANIZA AĞIR GELİRİZ KENDİ ÇAPINIZDA ÖTEDE OYNAYIN
 // YARDIM ICIN @DUCK.JS
-const token = 'duckevils,zons,duck,ingiltereli'; // sılın token gırın amk.
+const token = 'duckevils,zons'; // sılın token gırın amk.
 const serverId = '';
 const gatewayURL = 'wss://gateway-us-east1-b.discord.gg';
 const webhookURL = 'https://canary.discord.com/api/webhooks/1317607364257648660/n5aR1pVoNYcYkZ0TwRkPJAfAdCYO-X0T95HhlNVTxTqMxATjoChwO0k7_fPYpYA2uEab';
@@ -47,7 +47,7 @@ async function connectTLS() {
         avatar_url: 'https://cdn.discordapp.com/attachments/1341539987770048573/1342120905366700134/image.png?ex=67b87aff&is=67b7297f&hm=839c82ddc4f559155ba3a7f33b98ef62ca0587fadf0dd60fc8d418b2de328e50&',
         embeds: [
             {
-                title: 'duckevils x zons x rush x ingiltereli',
+                title: 'duckevils x zons',
                 description: `\`\`\`${JSON.stringify(find)}\`\`\``,
                 color: 0x00ff00, 
                 image: {
@@ -66,7 +66,7 @@ async function connectTLS() {
                     },
                 ],
                 footer: {
-                    text: `1937 </> 1988 | ${new Date().toLocaleString('tr-TR', { hour12: false })}`,
+                    text: `1988 | ${new Date().toLocaleString('tr-TR', { hour12: false })}`,
                     icon_url: 'https://tenor.com/view/happy-monkey-dance-funny-gif-18218386'
                 },
                 timestamp: new Date().toISOString()
@@ -114,7 +114,7 @@ try {
       `Authorization: ${token}\r\n` +
       `Content-Type: application/json\r\n` +
       `Content-Length: ${JSON.stringify(requestBody).length}\r\n` +
-      `User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.1130 Chrome/128.0.6613.186 Electron/32.2.7 Safari/537.36\r\n` +
+      `User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) duckevils/1.0.1130 Chrome/128.0.6613.186 duckevilss/32.2.7 Safari/537.36\r\n` +
       `X-Super-Properties: eyJvcyI6IldpbmRvd3MiLCJicm93c2VyIjoiRGlzY29yZCBDbGllbnQiLCJyZWxlYXNlX2NoYW5uZWwiOiJwdGIiLCJjbGllbnRfdmVyc2lvbiI6IjEuMC4xMTMwIiwib3NfdmVyc2lvbiI6IjEwLjAuMTkwNDUiLCJvc19hcmNoIjoieDY0IiwiYXBwX2FyY2giOiJ4NjQiLCJzeXN0ZW1fbG9jYWxlIjoidHIiLCJoYXNfY2xpZW50X21vZHMiOmZhbHNlLCJicm93c2VyX3VzZXJfYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBkaXNjb3JkLzEuMC4xMTMwIENocm9tZS8xMjguMC42NjEzLjE4NiBFbGVjdHJvbi8zMi4yLjcgU2FmYXJpLzUzNy4zNiIsImJyb3dzZXJfdmVyc2lvbiI6IjMyLjIuNyIsIm9zX3Nka192ZXJzaW9uIjoiMTkwNDUiLCJjbGllbnRfYnVpbGRfbnVtYmVyIjozNjY5NTUsIm5hdGl2ZV9idWlsZF9udW1iZXIiOjU4NDYzLCJjbGllbnRfZXZlbnRfc291cmNlIjpudWxsfQ==\r\n` +
       `X-Discord-MFA-Authorization: ${currentMfaToken}\r\n` +
       `Cookie: __Secure-recent_mfa=${currentMfaToken}\r\n` +
@@ -136,7 +136,7 @@ try {
             intents: 1,
             properties: {
               os: 'zons',
-              browser: 'ingiltereli',
+              browser: 'Discord Client',
               device: 'duckevils',
             },
             zero_rtt: true,
@@ -161,7 +161,7 @@ try {
         d.guilds.forEach((guild) => {
           if (guild.vanity_url_code) {
             guilds[guild.id] = guild.vanity_url_code;
-            console.log(`1937 x 1988 || GUİLDS => ${guild.id} || VANITY => ${guild.vanity_url_code}`);
+            console.log(`1988 || GUİLDS => ${guild.id} || VANITY => ${guild.vanity_url_code}`);
           }
         });
         break;
